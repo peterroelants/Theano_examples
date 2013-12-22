@@ -161,7 +161,6 @@ def linearRegression_2(inputs, outputs):
                format: [[b_0], ... , [b_{p-1}]]
     """
     X = T.dmatrix('X')
-    #y = T.dmatrix('y')
     y = T.dcol('y')
     # http://deeplearning.net/software/theano/library/sandbox/linalg.html
     # MatrixPinv is the class.
